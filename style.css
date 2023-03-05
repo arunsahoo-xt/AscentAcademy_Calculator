@@ -1,0 +1,69 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    
+    text-align: center;
+    width: 500px;
+    display: block;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 106px 106px 106px 106px;
+}
+.inputField{
+    font-size: 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    width: 410px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: right;
+    padding-right: 15px;
+    overflow-y: visible;
+}
+.btn-design {
+    font-size: 20px;
+    width: 100px;
+    height: 70px;
+    color: white;
+    background-color: #202020;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.answer{
+    background-color: rgb(86, 190, 239);
+    width: 100px;
+    height: 70px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.clear{
+    width: 154px;
+    height: 70px;
+    background-color: #202020;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.back{
+    width: 154px;
+    height: 70px;
+    background-color: #202020;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
