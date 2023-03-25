@@ -5,9 +5,10 @@ body{
 }
 .container{
     
-    text-align: center;
+    /* text-align: center; */
     width: 500px;
     display: block;
+    
     position: absolute;
     right: 80px;
     top: 80px;
@@ -15,14 +16,16 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 106px 106px 106px 106px;
+    text-align: center;
 }
 .inputField{
     font-size: 30px;
 
     font-family: 'Open Sans', sans-serif;
-    width: 410px;
+    width: 400px;
     height: 50px;
     margin: 10px;
+    margin-left: 0;
     border: 2px solid black;
     border-radius: 4px;
     text-align: right;
@@ -49,7 +52,7 @@ body{
     font-size: 20px;
 }
 .clear{
-    width: 154px;
+    width: 150px;
     height: 70px;
     background-color: #202020;
     color: white;
@@ -59,7 +62,7 @@ body{
 }
 
 .back{
-    width: 154px;
+    width: 150px;
     height: 70px;
     background-color: #202020;
     color: white;
